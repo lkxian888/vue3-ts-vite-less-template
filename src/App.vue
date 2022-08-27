@@ -3,7 +3,7 @@
  * @Author: lkxian
  * @@@Email: lkxian888@163.com
  * @Date: 2022-08-27 13:34:48
- * @LastEditTime: 2022-08-27 14:22:37
+ * @LastEditTime: 2022-08-27 17:36:52
 -->
 <template>
   <header>
@@ -44,9 +44,8 @@ header {
 }
 
 .logo {
-  display: block;
+  /* display: block; */
   display: flex;
-  align-items: center;
   margin: 0 auto 2rem;
 }
 

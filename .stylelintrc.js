@@ -115,6 +115,14 @@ module.exports = {
       'transition'
     ],
     'declaration-block-trailing-semicolon': 'always',
-    'string-quotes': 'single'
+    'string-quotes': 'single',
+    'max-empty-lines': 1,
+    'declaration-empty-line-before': [
+      'always',
+      {
+        except: ['after-declaration', 'first-nested'],
+        ignore: ['after-comment', 'inside-single-line-block']
+      }
+    ]
   }
 };
