@@ -1,3 +1,10 @@
+/*
+ * @Description: your description
+ * @Author: lkxian
+ * @@@Email: lkxian888@163.com
+ * @Date: 2022-08-27 13:34:48
+ * @LastEditTime: 2022-08-27 18:10:17
+ */
 /* eslint-env node */
 require('@rushstack/eslint-patch/modern-module-resolution');
 
@@ -30,6 +37,12 @@ module.exports = {
         // singleQuote: true,
         // parser: 'flow'
         semi: true
+      }
+    ],
+    'vue/multi-word-component-names': [
+      'off',
+      {
+        ignores: []
       }
     ]
   }

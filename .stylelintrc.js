@@ -123,6 +123,12 @@ module.exports = {
         except: ['after-declaration', 'first-nested'],
         ignore: ['after-comment', 'inside-single-line-block']
       }
+    ],
+    'selector-class-pattern': [
+      '^([a-z][_a-z0-9]*)(_-[a-z0-9]+)*$',
+      {
+        message: 'Expected class selector to be kebab-case'
+      }
     ]
   }
 };

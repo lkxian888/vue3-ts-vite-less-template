@@ -3,11 +3,10 @@
  * @Author: lkxian
  * @@@Email: lkxian888@163.com
  * @Date: 2022-08-27 14:13:28
- * @LastEditTime: 2022-08-27 14:22:34
+ * @LastEditTime: 2022-08-27 17:50:19
  */
 import axios from 'axios';
 import type { AxiosRequestConfig, AxiosError } from 'axios';
-// import type { CustomResponseType } from '#/axios'
 export interface CustomResponseType<T> {
   code: number;
   message: string;

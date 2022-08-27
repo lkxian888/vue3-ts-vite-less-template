@@ -3,12 +3,8 @@
  * @Author: lkxian
  * @@@Email: lkxian888@163.com
  * @Date: 2022-08-27 13:34:48
- * @LastEditTime: 2022-08-27 16:57:50
+ * @LastEditTime: 2022-08-27 17:45:58
 -->
-<script setup lang="ts">
-defineProps<{ msg: string }>();
-</script>
-
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
@@ -21,6 +17,10 @@ defineProps<{ msg: string }>();
     </h3>
   </div>
 </template>
+
+<script setup lang="ts">
+defineProps<{ msg: string }>();
+</script>
 
 <style scoped>
 h1 {

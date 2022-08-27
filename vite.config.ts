@@ -3,7 +3,7 @@
  * @Author: lkxian
  * @@@Email: lkxian888@163.com
  * @Date: 2022-08-27 13:34:48
- * @LastEditTime: 2022-08-27 16:42:58
+ * @LastEditTime: 2022-08-27 18:04:45
  */
 
 import { defineConfig } from 'vite';
@@ -17,6 +17,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, './src')
-    }
+    },
+    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue']
   }
 });
