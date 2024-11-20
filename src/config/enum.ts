@@ -5,3 +5,6 @@
  * @Date: 2022-08-27 17:49:37
  * @LastEditTime: 2022-08-27 17:50:05
  */
+
+
+export const aa = 'aa'
